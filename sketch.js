@@ -11,7 +11,7 @@ function setup()
   let W = windowWidth; //1080;
   let H = windowHeight; //720;
   var cnv = createCanvas(W, H);
-  cnv.position(windowWidth/2-W/2, windowHeight/2-H/2);
+  //cnv.position(windowWidth/2-W/2, windowHeight/2-H/2);
   background(0); 
   
   size = 20;
