@@ -8,8 +8,8 @@ let col1, col2, col3;
 
 function setup() 
 {
-  let W = 1080;
-  let H = 720;
+  let W = windowWidth; //1080;
+  let H = windowHeight; //720;
   var cnv = createCanvas(W, H);
   cnv.position(windowWidth/2-W/2, windowHeight/2-H/2);
   background(0); 
