@@ -1,9 +1,9 @@
 let cols, rows, size;
 let field;
-let pSize = 5000;
+let pSize = 10000;
 let particle = [pSize];
 let timer;
-let timeInc = 7500;
+let timeInc = 5000;
 let col1, col2, col3;
 
 function setup() 
@@ -23,7 +23,7 @@ function setup()
   col3 = 255;
   for (let i = 0; i < pSize; i++)
     particle[i] = new Particle();
-  timer = millis()+timeInc/3;
+  timer = millis()+timeInc;
 }
 
 function draw() 
