@@ -2,7 +2,7 @@ let cols, rows, size;
 let field;
 let pSize = 5000;
 let particle = [pSize];
-let timer = 5000;
+let timer = 9000;
 let timeInc = 10000;
 let col1, col2, col3;
 
